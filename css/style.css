@@ -2,6 +2,7 @@
 
 @import "grid.css";
 @import "contents.css";
+@import "todos.css";
 
 #todo-screen img {
   position: fixed;

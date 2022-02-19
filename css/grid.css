@@ -18,3 +18,21 @@
   justify-content: space-between;
   align-items: flex-end;
 }
+.todo-screen__main-row {
+  width: 33%;
+}
+.todo-screen__main-row:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+  margin: 10px;
+  font-size: 24px;
+  color: white;
+}
+.todo-screen__main-row:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 10px;
+}
