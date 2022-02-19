@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      href="https://img.icons8.com/doodle/96/000000/home--v1.png"
+    />
+    <title>Gryun's to-do-list</title>
+  </head>
+  <body id="todo-screen">
+    <script src="js/background.js"></script>
+    <main id="todo-screen__main">
+      <div class="todo-screen__main-column"></div>
+      <div class="todo-screen__main-column">
+        <div class="clock"></div>
+        <form class="login">
+          <input type="text" placeholder="Write your name" max="17" />
+        </form>
+        <div class="loginResult hidden"></div>
+      </div>
+      <div class="todo-screen__main-column">
+        <div class="todo-screen__main-row">
+          <span class="gelocate"></span>
+        </div>
+        <div class="todo-screen__main-row">
+          <span class="quotes"></span>
+        </div>
+        <div class="todo-screen__main-row">
+          <div><button></button></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/clock.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
